@@ -2,19 +2,36 @@
     border: 2px solid red;
 }
 
+body {
+    background-color: antiquewhite;
+}
+
 .Pagetop {
     background-color:darkkhaki;
     display: flex;
 }
 
-.Pagetop div {
-    flex: 1 1 auto;
-    flex-wrap: wrap;
+.Pagetop div{
+    flex: 1;
+}
+.logocontainer {
+    flex-basis: auto;
+    width: 200px;    
+}
+
+.logo {
+    width:40px;
+    height: 40px;
+}
+
+.empty {
+    flex:2;
 }
 
 .menu {
-    flex-shrink:0;
+    flex-basis:auto;
     text-align: right;
+    width:200px
 }
 
 .heading {
